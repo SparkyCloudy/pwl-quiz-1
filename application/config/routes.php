@@ -58,5 +58,8 @@ $route['halaman/masuk'] = 'Cmasuk/panel';
 $route['halaman/masuk/proses'] = 'Cmasuk/prosesMasuk';
 
 $route['halaman/dashboard/dosen'] = 'Cdashboard/dashDosen';
+$route['halaman/dashboard/dosen/data_prodi'] = 'Cprodi/getView';
+$route['halaman/dashboard/dosen/data_prodi/edit/(:num)'] = 'Cprodi/fillFormWith/$1';
+$route['halaman/dashboard/dosen/data_prodi/delete/(:num)'] = 'Cprodi/prosesDelete/$1';
 $route['halaman/dashboard/dosen/logout'] = 'Cdashboard/keluar';
 
